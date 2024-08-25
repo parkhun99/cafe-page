@@ -16,14 +16,14 @@ $(document).ready(function() {
             $('.top_items').css({color: '#fff'});
         }
 
-        if(scrollTop >= 450) {
+        if(scrollTop >= 350) {
             setTimeout(() => {
                 $('.coffee_item').addClass('moveBig');
             }, 500);
             $('.text').addClass('moveUp3');
         }
 
-        if(scrollTop >= 1000) {
+        if(scrollTop >= 800) {
             $('.third_section').addClass('moveLeft');
         }
     });
