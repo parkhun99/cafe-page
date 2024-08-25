@@ -1,0 +1,278 @@
+@charset "UTF-8";
+@font-face {font-family:'KoPubDotum';src:url('../fonts/KoPubDotumLight.woff') format("woff");font-display: block;}
+@font-face {font-family:'KoPubDotumBold';src:url('../fonts/KoPubDotumBold.woff') format("woff");font-display: block;}
+/* @font-face {font-family:'KoPubBatangLight';src:url('../fonts/KoPubBatangLight.woff') format("woff");} */
+@font-face {font-family:'netmarbleM';src: url('../fonts/netmarbleM.woff');font-display: block;}
+@font-face { font-family: 'BMJUA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff'); font-weight: normal; font-style: normal;font-display: block; }
+@font-face {font-family:'NotoSansL';src: url('../fonts/NotoSansKR-Light.woff') format("woff");font-display: block;}
+@font-face {font-family:'NotoSansM';src: url('../fonts/NotoSansKR-Medium.woff') format("woff");font-display: block;}
+
+/*0819 추가*/
+@font-face {font-family:'NotoSansR';src: url('../fonts/NotoSansKR-Regular.woff') format("woff");font-display: block;}
+@font-face {font-family:'NotoSansL';src: url('../fonts/NotoSansKR-Light.woff') format("woff");font-display: block;}
+@font-face {font-family:'NotoSansM';src: url('../fonts/NotoSansKR-Medium.woff') format("woff");font-display: block;}
+@font-face {font-family: 'KATURI'; src: url('../fonts/KATURI.woff') format("woff");font-display: block;}
+/* @font-face {font-family:'NotoSansB';src: url('../fonts/NotoSansCJKkr-Bold.otf') format("otf");font-display: block;} */
+/*0819 추가 끝*/
+
+@font-face {
+	font-family: 'Nanum Barun Gothic';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/NanumBarunGothic.woff');
+	src: local('NanumBarunGothic');
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'Nanum Barun Gothic';
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/NanumBarunGothicBold.woff');
+	src: local('NanumBarunGothic');
+	font-display: block;
+}
+
+/* NanumBarunGothic - latin_korean */
+@font-face {
+	font-family: 'Nanum Barun Gothic';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/NanumBarunGothic.eot'); /* IE9 Compat Modes */
+	src: local('NanumBarunGothic'), local('NanumBarunGothic'),
+		 url('../fonts/NanumBarunGothic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/NanumBarunGothic.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/NanumBarunGothic.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/NanumBarunGothic.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/NanumBarunGothic.svg#NanumBarunGothic') format('svg'); /* Legacy iOS */
+	font-display: block;
+}
+/* NanumBarunGothicBold - latin_korean */
+@font-face {
+	font-family: 'Nanum Barun Gothic';
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/NanumBarunGothicBoldBold.eot'); /* IE9 Compat Modes */
+	src: local('NanumBarunGothicBold'), local('NanumBarunGothicBold'),
+		 url('../fonts/NanumBarunGothicBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/NanumBarunGothicBold.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/NanumBarunGothicBold.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/NanumBarunGothicBold.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/NanumBarunGothicBold.svg#NanumBarunGothicBold') format('svg'); /* Legacy iOS */
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'NanumSquareNeo-eHv';
+	src: url('../fonts/NanumSquareNeoTTF-eHv.woff2') format("woff2");
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'NanumSquareNeo-dEb';
+	src: url('../fonts/NanumSquareNeo-Eb.woff') format("woff");
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'NanumSquareNeo-cBd';
+	src: url('../fonts/NanumSquareNeo-cBd.woff');
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'NanumSquareNeo-Bd';
+	src: url('../fonts/NanumSquareNeoOTF-Bd.woff');
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'NanumSquareNeo-Rg';
+	src: url('../fonts/NanumSquareNeoOTF-Rg.woff');
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'NanumSquareNeo-Hv';
+	src: url('../fonts/NanumSquareNeoOTF-Hv.woff');
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'NanumSquareNeo';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/NanumSquareNeo-bRg.woff');
+	font-display: block;
+}
+
+/* 0824 추가 */
+
+@font-face {
+	font-family: 'NotoM';
+	font-style:normal;
+	font-weight:normal;
+	src: url("../fonts/NotoSansCJKkr-Medium.woff");
+	font-display: block;
+}
+
+@font-face {
+	font-family:'BRR';
+	font-style:normal;
+	font-weight: normal;
+	src:url('../fonts/배스킨라빈스R.otf') format('otf'),
+		url('../fonts/배스킨라빈스R.woff') format('woff'),
+		url('../fonts/배스킨라빈스R.ttf') format('truetype');
+	font-display: block;
+}
+
+@font-face {
+	font-family:'BRB';
+	font-style:normal;
+	font-weight: normal;
+	src:url('../fonts/배스킨라빈스B.otf') format('otf'),
+		url('../fonts/배스킨라빈스B.wotff') format('woff'),
+		url('../fonts/배스킨라빈스B.ttf') format('truetype');
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'CookieRunR';
+	font-style:normal;
+	font-weight:normal;
+	src:url('../fonts/CookieRun Regular.woff') format('woff'),
+		url('../fonts/CookieRun Regular.ttf') format('truetype');
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'CookieRunBd';
+	font-style:normal;
+	font-weight:normal;
+	src:url('../fonts/CookieRun Bold.woff') format('woff'),
+		url('../fonts/CookieRun Bold.ttf') format('truetype');
+	font-display: block;
+}
+
+@font-face {
+	font-family:'TmoneyB';
+	font-style:normal;
+	font-weight: 700;
+	src:url('../fonts/TmoneyRoundWindExtraBold.woff') format('woff'),
+		url('../fonts/TmoneyRoundWindExtraBold.ttf') format('truetype');
+	font-display: block;
+}
+
+@font-face {
+	font-family:'Cafe24Ssurround';
+	font-style: normal;
+	font-weight: normal;
+	src:url('../fonts/Cafe24Ssurround-v2.0.otf') format('otf'),
+		url('../fonts/Cafe24Ssurround-v2.0.woff') format('woff'),
+		url('../fonts/Cafe24Ssurround-v2.0.woff2') format('woff2'),
+		url('../fonts/Cafe24Ssurround-v2.0.ttf') format('truetype');
+	font-display: block;
+  }
+
+
+  /* 0926 추가 */
+
+
+@font-face {
+	font-family:'TmoneyR';
+	font-style:normal;
+	font-weight: 700;
+	src:url('../fonts/TmoneyRoundWindRegular.woff') format('woff'),
+		url('../fonts/TmoneyRoundWindRegular.ttf') format('truetype');
+	font-display: block;
+}
+@font-face {
+	font-family:'Cafe24Dongdong';
+	font-style:normal;
+	font-weight: 700;
+	src:url('../fonts/Cafe24Dongdong.woff') format('woff'),
+		url('../fonts/Cafe24Dongdong.woff2') format('woff2'),
+		url('../fonts/Cafe24Dongdong.ttf') format('truetype');
+	font-display: block;
+}
+
+/*1011 추가*/
+
+@font-face {
+	font-family: 'NanumGothic';
+	src: url('../fonts/NanumGothic.woff') format("woff"),
+	url('../fonts/NanumGothic.woff2') format("woff2");
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'NanumBGothic';
+	src: url('../fonts/NanumGothicBold.woff') format("woff"),
+	url('../fonts/NanumGothicBold.woff2') format("woff2");
+	font-display: block;
+	font-weight: bolder;
+}
+
+@font-face {
+	font-family: 'Nanum Myeongjo';
+	src: url('../fonts/NanumMyeongjo.woff') format("woff"),
+	url('../fonts/NanumMyeongjo.woff2') format("woff2");
+	font-display: block;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url(../fonts/Pretendard-Medium.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    src: url(../fonts/NanumSquareRoundOTFR.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquare-Bold';
+    src: url(../fonts/NanumSquareRoundOTFB.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url(../fonts/Pretendard-Bold.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'notoSansB';
+    src: url(../fonts/NotoSansKR-Bold.woff) format('woff'), 
+		url(../fonts/NotoSansKR-Bold.ttf) format('ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'notoSansM';
+    src: url(../fonts/NotoSansCJKkr-Medium.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'VAGRoundB';
+    src: url(../fonts/VAGRoundedStd-Bold.otf) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'DINproR';
+	src: url(../fonts/dinpro-regular.woff) format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
