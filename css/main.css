@@ -322,11 +322,11 @@ opacity: 0;
 
 @keyframes moveLeft {
   0% {
-    left: -300px;
+    margin-left: -100px;
     opacity: 0;
   }
   100% {
-    left: 0px;
+    margin-left: 0px;
     opacity: 1;
   }
 }
