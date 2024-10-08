@@ -15,6 +15,7 @@
   margin-top: 0px;
   background-image: url("../images/visual_bg.png");
   background-position: center;
+  width: 100%;
   background-size: cover;
 }
 @media (max-width: 768px) {
