@@ -16,6 +16,13 @@ a {
   margin: 0 auto;
   position: relative;
 }
+@media (max-width: 1000px) {
+  .inner {
+    width: auto;
+    height: 110px;
+  }
+}
+
 .visual > .inner {
   width: 100%;
 }
@@ -115,6 +122,7 @@ header {
   top: 0;
   z-index: 9;
 }
+
 header > .inner {
   height: 110px;
 }

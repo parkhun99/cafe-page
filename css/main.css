@@ -8,6 +8,7 @@
   font-family: 'notoSansB';
   pointer-events: none;
   /* margin-bottom: 10px; */
+  margin-left: 80px;
 }
 
 /* 섹션 - visual */
@@ -21,7 +22,7 @@
 @media (max-width: 768px) {
   .visual {
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
 }
 
@@ -248,6 +249,7 @@
 .coffee {
   background-image: url("../images/visual_bg4.png");
   background-position: center;
+  background-size: cover;
 }
 .coffee .inner {
   height: 706px;
@@ -560,4 +562,22 @@
   z-index: 9;
   pointer-events: none;
   opacity: 0;
+}
+
+.bottom_banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  z-index: 1000; /* 다른 요소들 위에 배너가 나타나도록 */
+}
+
+.bottom_banner {
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+  line-height: 100px;
 }
